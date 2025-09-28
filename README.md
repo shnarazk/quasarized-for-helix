@@ -23,7 +23,14 @@ Quasarized is a simple extention of Solarized color scheme. It adds 4 colors to 
 - ![badge](https://img.shields.io/badge/Light3c-d4daee) (`d4daee`) *NEW* (compliment color of Light3)
 - ![badge](https://img.shields.io/badge/Light4-fdf6e3) (`fdf6e3`) was `base3` in Solarized
 
-## vivid red for types, vivid blue for variavles, quiet colors for the rest
+## dark and light modes are completely symmetric.
+
+Flipping assinged colors in main tones gets the other mode.  
+The rest part of files are identical.
+
+## vivid red for types, vivid blue for functions, and green for variables
+The other elements are assigned to quiet colors.
+It suits for strongly typed languages, which we love.
 
 - ![badge](https://img.shields.io/badge/clr_y-b58900) namespace, label, constant, attribute, macro
 - ![badge](https://img.shields.io/badge/clr_o-cb4b16) class, type, struct
