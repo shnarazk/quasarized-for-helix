@@ -13,13 +13,13 @@
 "ui.cursorline.primary"   = { underline = { style = "line" } }
 "ui.cursorline.secondary" = { underline = { style = "dashed" } }
 "ui.gutter"               = { bg = "bg_3" }
-"ui.help"                 = { modifiers = ["reversed"] }
+"ui.help"                 = { fg = "bg_3", bg = "fg_3c" }
 "ui.linenr"               = { fg = "fg_0", bg = "bg_0" }
 "ui.linenr.selected"      = { fg = "fg_3", bg = "bg_0", modifiers = ["bold"] }
 "ui.menu"                 = { fg = "fg_1", bg = "bg_3" }
 "ui.menu.selected"        = { fg = "fg_4", bg = "bg_4", modifiers = ["bold"] }
 "ui.popup"                = { bg = "bg_3" }
-"ui.popup.info"           = { fg = "bg_2", bg = "fg_3c" }
+"ui.popup.info"           = { fg = "bg_4", bg = "fg_3c" }
 "ui.selection"            = { bg = "bg_3", modifiers = ["dim"] }
 "ui.selection.primary"    = { bg = "bg_3", modifiers = ["bold"] }
 "ui.statusline"           = { fg = "bg_4", bg = "bg_0" }
