@@ -23,12 +23,12 @@ Quasarized is a simple extention of Solarized color scheme. It adds 4 colors to 
 - ![badge](https://img.shields.io/badge/Light3c-d4daee) (`d4daee`) *NEW* (compliment color of Light3)
 - ![badge](https://img.shields.io/badge/Light4-fdf6e3) (`fdf6e3`) was `base3` in Solarized
 
-## dark and light modes are completely symmetric.
+## Dark and light modes are completely symmetric.
 
 Flipping assinged colors in main tones gets the other mode.  
 The rest part of files are identical.
 
-## vivid red for types, vivid blue for functions, and green for variables
+## Vivid red for types, vivid blue for functions, and green for variables
 The other elements are assigned to quiet colors.
 It suits for strongly typed languages, which we love.
 
@@ -40,3 +40,9 @@ It suits for strongly typed languages, which we love.
 - ![badge](https://img.shields.io/badge/clr_b-268bd2) funcion
 - ![badge](https://img.shields.io/badge/clr_c-2aa198) variable
 - ![badge](https://img.shields.io/badge/clr_g-859900) keyword, special
+
+# memo
+
+## about name
+There is no color scheme starting with 'q' in helix builtin schemes.
+So it would be nice for completion. And GPT-5 proposed this one.
