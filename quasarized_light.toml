@@ -32,9 +32,9 @@
 "ui.text.inactive"        = { fg = "clr_c" }
 "ui.text.info"            = "bg_3c"
 "ui.text.directory"       = { fg = "clr_b" }
-"ui.virtual.inlay-hint"   = { fg = "bg_0", modifiers = ["italic"] }
-# "ui.virtual.inlay-hint.parameter" = { fg = "clr_v", modifiers = ["italic"] }
-# "ui.virtual.inlay-hint.type" = { fg = "clr_m", modifiers = ["italic"] }
+"ui.virtual.inlay-hint"   = { fg = "fg_0", modifiers = ["dim", "italic"] }
+"ui.virtual.inlay-hint.parameter" = { fg = "clr_c", modifiers = ["dim", "italic"] }
+"ui.virtual.inlay-hint.type" = { fg = "clr_o", modifiers = ["dim", "italic"] }
 "ui.virtual.jump-label"   = { fg = "clr_b", modifiers = ["bold"], underline = { style = "line" } }
 "ui.virtual.ruler"        = { bg = "bg_3" }
 "ui.virtual.whitespace"   = "fg_0"
