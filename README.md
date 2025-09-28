@@ -32,14 +32,14 @@ The rest part of files are identical.
 The other elements are assigned to quiet colors.
 It suits for strongly typed languages, which we love.
 
-- ![badge](https://img.shields.io/badge/clr_y-b58900) namespace, label, constant, attribute, macro
-- ![badge](https://img.shields.io/badge/clr_o-cb4b16) class, type, struct
-- ![badge](https://img.shields.io/badge/clr_r-dc322f) enum variant
-- ![badge](https://img.shields.io/badge/clr_m-d33682) type parameter
-- ![badge](https://img.shields.io/badge/clr_v-6c71c4) operator
-- ![badge](https://img.shields.io/badge/clr_b-268bd2) funcion
-- ![badge](https://img.shields.io/badge/clr_c-2aa198) variable
-- ![badge](https://img.shields.io/badge/clr_g-859900) keyword, special
+- ![badge](https://img.shields.io/badge/Yellow-b58900) (`b58900`) namespace, label, constant, attribute, macro
+- ![badge](https://img.shields.io/badge/Orange-cb4b16) (`cb4b16`) class, type, struct
+- ![badge](https://img.shields.io/badge/Red-dc322f) (`dc322f`) enum variant
+- ![badge](https://img.shields.io/badge/Magenta-d33682) (`d33682`) type parameter
+- ![badge](https://img.shields.io/badge/Violet-6c71c4) (`6c71c4`) operator
+- ![badge](https://img.shields.io/badge/Blue-268bd2) (`268bd2`) funcion
+- ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) variable
+- ![badge](https://img.shields.io/badge/Green-859900) (`859900`) keyword, special
 
 # Memo
 
