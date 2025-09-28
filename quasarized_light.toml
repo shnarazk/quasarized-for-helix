@@ -1,0 +1,123 @@
+# Author: shnarazk
+
+"ui.background"           = { bg = "bg_4" }
+"ui.background.separator" = { fg = "fg_2", modifiers = ["bold"] }
+"ui.bufferline"           = { fg = "fg_2", bg = "bg_1" }
+"ui.bufferline.active"    = { fg = "fg_2", bg = "bg_3c" }
+"ui.cursor"               = { fg = "fg_2", modifiers = ["reversed"] }
+"ui.cursor.primary"       = { fg = "fg_3", modifiers = ["reversed"] }
+"ui.cursor.primary.normal" = { fg = "clr_c", modifiers = ["reversed"] }
+"ui.cursor.primary.insert" = { fg = "clr_r", modifiers = ["reversed"] }
+"ui.cursor.primary.select" = { fg = "clr_y", modifiers = ["reversed"] }
+"ui.cursor.match"         = { modifiers = ["bold", "slow_blink"] }
+"ui.cursorline.primary"   = { underline = { style = "line" } }
+"ui.cursorline.secondary" = { underline = { style = "dashed" } }
+"ui.gutter"               = { bg = "bg_3" }
+"ui.help"                 = { modifiers = ["reversed"] }
+"ui.linenr"               = { fg = "fg_0", bg = "bg_0" }
+"ui.linenr.selected"      = { fg = "fg_3", bg = "bg_0", modifiers = ["bold"] }
+"ui.menu"                 = { fg = "fg_1", bg = "bg_3" }
+"ui.menu.selected"        = { fg = "fg_4", bg = "bg_4", modifiers = ["bold"] }
+"ui.popup"                = { bg = "bg_3" }
+"ui.popup.info"           = { fg = "bg_2", bg = "fg_3c" }
+"ui.selection"            = { bg = "bg_3", modifiers = ["dim"] }
+"ui.selection.primary"    = { bg = "bg_3", modifiers = ["bold"] }
+"ui.statusline"           = { fg = "bg_4", bg = "bg_0" }
+"ui.statusline.normal"    = { fg = "bg_4", bg = "clr_c" }
+"ui.statusline.insert"    = { fg = "bg_4", bg = "clr_r" }
+"ui.statusline.select"    = { fg = "bg_4", bg = "clr_y" }
+"ui.tabstop"              = "clr_o"
+"ui.text"                 = "fg_3"
+"ui.text.focus"           = { bg = "bg_3", modifiers = ["bold"] }
+"ui.text.inactive"        = { fg = "clr_c" }
+"ui.text.info"            = "bg_3c"
+"ui.text.directory"       = { fg = "clr_b" }
+"ui.virtual.inlay-hint"   = { fg = "bg_0", modifiers = ["italic"] }
+# "ui.virtual.inlay-hint.parameter" = { fg = "clr_v", modifiers = ["italic"] }
+# "ui.virtual.inlay-hint.type" = { fg = "clr_m", modifiers = ["italic"] }
+"ui.virtual.jump-label"   = { fg = "clr_b", modifiers = ["bold"], underline = { style = "line" } }
+"ui.virtual.ruler"        = { bg = "bg_3" }
+"ui.virtual.whitespace"   = "fg_0"
+"ui.virtual.wrap"         = "bg_3"
+"ui.window"               = { fg = "fg_2", modifiers = ["bold"] }
+
+"attribute"          = "clr_g"
+"comment"            = { fg = "bg_0", modifiers = ["dim", "italic"] }
+"comment.unused"     = { fg = "bg_0", modifiers = ["dim"] }
+"constant"           = "fg_0"
+"constant.builtin"   = "fg_1"
+"constant.character" = "fg_0"
+"constant.numeric"   = "fg_0"
+# "constructor"        = "clr_b"
+"function"           = "clr_b"
+"keyword"            = "clr_g"
+"keyword.control"    = { fg = "fg_1" }
+"keyword.operator"   = "clr_v"
+"keyword.storage"    = { fg = "fg_0" }
+"label"              = "clr_c"
+"namespace"          = "clr_o"
+"operator"           = "clr_v"
+"punctuation"        = "fg_1"
+"special"            = "clr_g"
+"string"             = "bg_0"
+"type"               = "clr_o"
+"type.builtin"       = "clr_o"
+"type.parameter"     = { fg = "clr_m", modifiers = ["dim"] }
+"type.enum"          = "clr_r"
+"type.enum.variant"  = { fg = "clr_m", modifiers = [] }
+"variable"           = { fg = "clr_c" }
+"variable.builtin"   = { fg = "fg_1", modifiers = ["bold"] }
+"variable.other"     = { fg = "clr_c" }
+"variable.parameter" = { fg = "clr_c", modifiers = ["bold"] }
+
+rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
+
+"diff.plus"  = "clr_g"
+"diff.delta" = "clr_c"
+"diff.minus" = "clr_v"
+
+"markup.bold"          = { fg = "bg_2", modifiers = ["bold"] }
+# "markup.heading"       = "bg_2"
+"markup.italic"        = { modifiers = ["italic"] }
+"markup.list"          = "bg_2"
+"markup.link.url"      = { underline = { style = "line" } }
+"markup.link.text"     = "bg_2"
+"markup.normal"        = "fg_0"
+"markup.quote"         = { fg = "fg_0", modifiers = ["italic"] }
+"markup.raw"           = { fg = "fg_1", bg = "bg_3" }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+
+"diagnostic"             = { underline = { style = "curl" } }
+"diagnostic.deprecated"  = { fg = "clr_y", underline = { style = "curl" } }
+"diagnostic.error"       = { fg = "clr_r", underline = { style = "curl" } }
+"diagnostic.hint"        = { fg = "clr_g", underline = { style = "curl" } }
+"diagnostic.info"        = { fg = "clr_c", underline = { style = "curl" } }
+"diagnostic.unnecessary" = { fg = "clr_y", underline = { style = "curl" } }
+"diagnostic.warning"     = { fg = "clr_v", underline = { style = "curl" } }
+"error"                  = { fg = "clr_r", modifiers = ["dim"] }
+"hint"                   = { fg = "clr_g", modifiers = ["dim"] }
+"info"                   = { fg = "clr_c", modifiers = ["dim"] }
+"warning"                = { fg = "clr_v", modifiers = ["dim"] }
+
+[palette]
+fg_4 = "#002b36"
+fg_3 = "#073642" # Dark Foreground (Used for status bars)
+fg_3c = "#421307"
+fg_2 = "#30525c"
+fg_1 = "#586e75" # Light Background (Not often used)
+fg_0 = "#657b83" # Comments, Invisibles, Line Highlighting
+bg_0 = "#839496" # Lighter Background (status bars, line number and folding)
+bg_1 = "#93a1a1" # Default Foreground, Caret, Delimiters, Operators
+bg_2 = "#c1c5bb"
+bg_3 = "#eee8d5" # Selection Background
+bg_3c = "#d4daee"
+bg_4 = "#fdf6e3" # Default Background
+
+clr_v = "#6c71c4" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+clr_c = "#2aa198" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
+clr_m = "#d33682" # Classes, Markup Bold, Search Text Background
+clr_g = "#859900" # Strings, Inherited Class, Markup Code, Diff Inserted
+clr_o = "#cb4b16" # Support, Regular Expressions, Escape Characters, Markup Quotes
+clr_b = "#268bd2" # Functions, Methods, Attribute IDs, Headings
+clr_r = "#dc322f" # Keywords, Storage, Selector, Markup Italic, Diff Changed
+clr_y = "#b58900" # Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
