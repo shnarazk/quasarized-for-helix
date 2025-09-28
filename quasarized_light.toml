@@ -77,13 +77,13 @@ rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 "diff.delta" = "clr_c"
 "diff.minus" = "clr_v"
 
-"markup.bold"          = { fg = "bg_2", modifiers = ["bold"] }
-# "markup.heading"       = "bg_2"
+"markup.bold"          = { fg = "clr_r", modifiers = ["bold"] }
+"markup.heading"       = "clr_b"
 "markup.italic"        = { modifiers = ["italic"] }
-"markup.list"          = "bg_2"
+"markup.list"          = "fg_3"
 "markup.link.url"      = { underline = { style = "line" } }
-"markup.link.text"     = "bg_2"
-"markup.normal"        = "fg_0"
+"markup.link.text"     = "fg_2"
+"markup.normal"        = "fg_1"
 "markup.quote"         = { fg = "fg_0", modifiers = ["italic"] }
 "markup.raw"           = { fg = "fg_1", bg = "bg_3" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
