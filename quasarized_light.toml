@@ -41,7 +41,7 @@
 "ui.virtual.wrap"         = "bg_3"
 "ui.window"               = { fg = "fg_2", modifiers = ["bold"] }
 
-"attribute"          = "clr_g"
+"attribute"          = "clr_y"
 "comment"            = { fg = "bg_0", modifiers = ["italic"] }
 "comment.unused"     = { fg = "bg_0", modifiers = [] }
 "constant"           = "clr_y"
@@ -50,6 +50,7 @@
 "constant.numeric"   = "fg_0"
 # "constructor"        = "clr_b"
 "function"           = "clr_b"
+"function.macro"     = "clr_y"
 "keyword"            = "clr_g"
 "keyword.control"    = { fg = "fg_1", modifiers = ["bold"] }
 "keyword.operator"   = "clr_v"
@@ -100,7 +101,7 @@ rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 "warning"                = { fg = "clr_v", modifiers = ["dim"] }
 
 [palette]
-clr_y = "#b58900" # Yellow : namespace, label, constant
+clr_y = "#b58900" # Yellow : namespace, label, constant, attribute, macro
 clr_o = "#cb4b16" # Orange : class, type, struct
 clr_r = "#dc322f" # Red    : enum variant
 clr_m = "#d33682" # Magenta: type parameter
