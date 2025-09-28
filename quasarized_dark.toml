@@ -42,20 +42,20 @@
 "ui.window"               = { fg = "fg_2", modifiers = ["bold"] }
 
 "attribute"          = "clr_g"
-"comment"            = { fg = "bg_0", modifiers = ["dim", "italic"] }
-"comment.unused"     = { fg = "bg_0", modifiers = ["dim"] }
-"constant"           = "fg_0"
+"comment"            = { fg = "bg_0", modifiers = ["italic"] }
+"comment.unused"     = { fg = "bg_0", modifiers = [] }
+"constant"           = "clr_y"
 "constant.builtin"   = "fg_1"
 "constant.character" = "fg_0"
 "constant.numeric"   = "fg_0"
 # "constructor"        = "clr_b"
 "function"           = "clr_b"
 "keyword"            = "clr_g"
-"keyword.control"    = { fg = "fg_1" }
+"keyword.control"    = { fg = "fg_1", modifiers = ["bold"] }
 "keyword.operator"   = "clr_v"
 "keyword.storage"    = { fg = "fg_0" }
-"label"              = "clr_c"
-"namespace"          = "clr_o"
+"label"              = "clr_y"
+"namespace"          = "clr_y"
 "operator"           = "clr_v"
 "punctuation"        = "fg_1"
 "special"            = "clr_g"
@@ -100,6 +100,30 @@ rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 "warning"                = { fg = "clr_v", modifiers = ["dim"] }
 
 [palette]
+clr_y = "#b58900" # Yellow : namespace, label, constant
+clr_o = "#cb4b16" # Orange : class, type, struct
+clr_r = "#dc322f" # Red    : enum variant
+clr_m = "#d33682" # Magenta: type parameter
+clr_v = "#6c71c4" # Violet : operator
+clr_b = "#268bd2" # Blue   : funcion
+clr_c = "#2aa198" # Cyan   : variable
+clr_g = "#859900" # Green  : keyword, special
+
+# # light
+# fg_4 = "#002b36"
+# fg_3 = "#073642" # Dark Foreground (Used for status bars)
+# fg_3c = "#421307"
+# fg_2 = "#30525c"
+# fg_1 = "#586e75" # Light Background (Not often used)
+# fg_0 = "#657b83" # Comments, Invisibles, Line Highlighting
+# bg_0 = "#839496" # Lighter Background (status bars, line number and folding)
+# bg_1 = "#93a1a1" # Default Foreground, Caret, Delimiters, Operators
+# bg_2 = "#c1c5bb"
+# bg_3 = "#eee8d5" # Selection Background
+# bg_3c = "#d4daee"
+# bg_4 = "#fdf6e3" # Default Background
+
+# dark
 bg_4 = "#002b36"
 bg_3 = "#073642" # Dark Foreground (Used for status bars)
 bg_3c = "#421307"
@@ -112,12 +136,3 @@ fg_2 = "#c1c5bb"
 fg_3 = "#eee8d5" # Selection Background
 fg_3c = "#d4daee"
 fg_4 = "#fdf6e3" # Default Background
-
-clr_v = "#6c71c4" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-clr_c = "#2aa198" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
-clr_m = "#d33682" # Classes, Markup Bold, Search Text Background
-clr_g = "#859900" # Strings, Inherited Class, Markup Code, Diff Inserted
-clr_o = "#cb4b16" # Support, Regular Expressions, Escape Characters, Markup Quotes
-clr_b = "#268bd2" # Functions, Methods, Attribute IDs, Headings
-clr_r = "#dc322f" # Keywords, Storage, Selector, Markup Italic, Diff Changed
-clr_y = "#b58900" # Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
