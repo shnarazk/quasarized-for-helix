@@ -17,7 +17,7 @@ A modified color scheme for helix editor based on Solarized
 - ![badge](https://img.shields.io/badge/Dark1-586e75) (`586e75`) was `base01` in Solarized
 - ![badge](https://img.shields.io/badge/Dark0-657b83) (`657b83`) was `base00` in Solarized
 - ![badge](https://img.shields.io/badge/Light0-839496) (`839496`) was `base0` in Solarized
-- ![badge](https://img.shields.io/badge/Light1-93a1a1) (`93a1a1`) was `base01` in Solarized
+- ![badge](https://img.shields.io/badge/Light1-93a1a1) (`93a1a1`) was `base1` in Solarized
 - ![badge](https://img.shields.io/badge/Light2-c1c5bb) (`c1c5bb`) *NEW*
 - ![badge](https://img.shields.io/badge/Light3-eee8d5) (`eee8d5`) was `base2` in Solarized
 - ![badge](https://img.shields.io/badge/Light3c-d4daee) (`d4daee`) *NEW* (compliment color of Light3)
