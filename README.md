@@ -8,7 +8,7 @@ A modified color scheme for helix editor based on Solarized
 
 ## Four more colors
 
-Quasarized is a simple extention of Solarized color scheme. It adds 4 colors to main tones as described below. They are used for better readability or in UI components.
+**Quasarized** is a simple extention of Solarized color scheme. It adds 4 colors to main tones as described below. They are used for better readability or in UI components.
 
 - ![badge](https://img.shields.io/badge/Dark4-002b36) (`002b36`) was `base03` in Solarized
 - ![badge](https://img.shields.io/badge/Dark3-073642) (`073642`) was `base02` in Solarized
