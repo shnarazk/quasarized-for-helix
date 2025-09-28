@@ -41,8 +41,8 @@ It suits for strongly typed languages, which we love.
 - ![badge](https://img.shields.io/badge/clr_c-2aa198) variable
 - ![badge](https://img.shields.io/badge/clr_g-859900) keyword, special
 
-# memo
+# Memo
 
-## about name
+## About name
 There is no color scheme starting with 'q' in helix builtin schemes.
 So it would be nice for completion. And GPT-5 proposed this one.
