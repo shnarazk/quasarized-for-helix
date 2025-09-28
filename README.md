@@ -41,6 +41,13 @@ It suits for strongly typed languages, which we love.
 - ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) variable
 - ![badge](https://img.shields.io/badge/Green-859900) (`859900`) keyword, special
 
+<img width="999" height="684" alt="Image" src="https://github.com/user-attachments/assets/fed4ae04-b7ab-4968-bddc-019083686331" />
+
+## And more
+
+- rainbow brackets
+- dim colors for inlay-hint
+
 # Memo
 
 ## About name
