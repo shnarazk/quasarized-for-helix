@@ -49,15 +49,15 @@
 "constant.character" = "fg_0"
 "constant.numeric"   = "fg_0"
 # "constructor"        = "clr_b"
-"function"           = "clr_b"
+"function"           = "clr_v"
 "function.macro"     = "clr_y"
 "keyword"            = "clr_g"
 "keyword.control"    = { fg = "fg_1", modifiers = ["bold"] }
-"keyword.operator"   = "clr_v"
+"keyword.operator"   = "clr_b"
 "keyword.storage"    = { fg = "fg_0" }
 "label"              = "clr_y"
 "namespace"          = "clr_y"
-"operator"           = "clr_v"
+"operator"           = "clr_b"
 "punctuation"        = "fg_1"
 "special"            = "clr_g"
 "string"             = "bg_0"
@@ -105,8 +105,8 @@ clr_y = "#b58900" # Yellow : namespace, label, constant, attribute, macro
 clr_o = "#cb4b16" # Orange : class, type, struct
 clr_r = "#dc322f" # Red    : enum variant
 clr_m = "#d33682" # Magenta: type parameter
-clr_v = "#6c71c4" # Violet : operator
-clr_b = "#268bd2" # Blue   : funcion
+clr_v = "#6c71c4" # Violet : funcion
+clr_b = "#268bd2" # Blue   : operator
 clr_c = "#2aa198" # Cyan   : variable
 clr_g = "#859900" # Green  : keyword, special
 
