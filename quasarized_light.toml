@@ -67,7 +67,7 @@
 "type.enum"          = "clr_r"
 "type.enum.variant"  = { fg = "clr_m", modifiers = [] }
 "variable"           = { fg = "clr_c" }
-"variable.builtin"   = { fg = "fg_1", modifiers = ["bold"] }
+"variable.builtin"   = { fg = "clr_c", modifiers = ["bold"] }
 "variable.other"     = { fg = "clr_c" }
 "variable.parameter" = { fg = "clr_c", modifiers = ["bold"] }
 
