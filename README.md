@@ -41,7 +41,7 @@ It suits for strongly typed languages, which we love.
 - ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) variable
 - ![badge](https://img.shields.io/badge/Green-859900) (`859900`) keyword, special
 
-<img width="999" height="684" alt="Image" src="https://github.com/user-attachments/assets/e5344a2d-5c0c-4634-9d72-0dc3e03db385" />
+<img width="996" height="679" alt="Image" src="https://github.com/user-attachments/assets/88d4cf47-178a-4485-9e44-36c8d39846b3" />
 
 ## And more
 
