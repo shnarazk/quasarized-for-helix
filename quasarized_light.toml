@@ -49,7 +49,7 @@
 "constant.character" = "fg_0"
 "constant.numeric"   = "fg_0"
 # "constructor"        = "clr_b"
-"function"           = "clr_v"
+"function"           = "clr_c"
 "function.macro"     = "clr_y"
 "keyword"            = "clr_g"
 "keyword.control"    = { fg = "fg_1", modifiers = ["bold"] }
@@ -66,10 +66,10 @@
 "type.parameter"     = { fg = "clr_m", modifiers = ["dim"] }
 "type.enum"          = "clr_r"
 "type.enum.variant"  = { fg = "clr_m", modifiers = [] }
-"variable"           = { fg = "clr_c" }
+"variable"           = { fg = "clr_v" }
 "variable.builtin"   = { fg = "fg_1", modifiers = ["bold"] }
-"variable.other"     = { fg = "clr_c" }
-"variable.parameter" = { fg = "clr_c", modifiers = ["bold"] }
+"variable.other"     = { fg = "clr_v" }
+"variable.parameter" = { fg = "clr_v", modifiers = ["bold"] }
 
 rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 
@@ -105,9 +105,9 @@ clr_y = "#b58900" # Yellow : namespace, label, constant, attribute, macro
 clr_o = "#cb4b16" # Orange : class, type, struct
 clr_r = "#dc322f" # Red    : enum variant
 clr_m = "#d33682" # Magenta: type parameter
-clr_v = "#6c71c4" # Violet : funcion
+clr_v = "#6c71c4" # Violet : variable
 clr_b = "#268bd2" # Blue   : operator
-clr_c = "#2aa198" # Cyan   : variable
+clr_c = "#2aa198" # Cyan   : funcion
 clr_g = "#859900" # Green  : keyword, special
 
 # light

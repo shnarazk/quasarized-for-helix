@@ -28,7 +28,7 @@ A modified color scheme for helix editor based on Solarized
 Flipping assinged colors in main tones gets the other mode.  
 The rest part of files are identical.
 
-## Types in ![badge](https://img.shields.io/badge/Orange-cb4b16), Functions in ![badge](https://img.shields.io/badge/Violet-6c71c4), and Variables in ![badge](https://img.shields.io/badge/Cyan-2aa198)
+## Types in ![badge](https://img.shields.io/badge/Orange-cb4b16), Functions in ![badge](https://img.shields.io/badge/Cyan-2aa198), and Variables in ![badge](https://img.shields.io/badge/Violet-6c71c4)
 The other elements are assigned to quiet colors.
 It suits for strongly typed languages, which we love.
 
@@ -36,9 +36,9 @@ It suits for strongly typed languages, which we love.
 - ![badge](https://img.shields.io/badge/Orange-cb4b16) (`cb4b16`) class, type, struct
 - ![badge](https://img.shields.io/badge/Red-dc322f) (`dc322f`) enum variant
 - ![badge](https://img.shields.io/badge/Magenta-d33682) (`d33682`) type parameter
-- ![badge](https://img.shields.io/badge/Violet-6c71c4) (`6c71c4`) function
+- ![badge](https://img.shields.io/badge/Violet-6c71c4) (`6c71c4`) variable
 - ![badge](https://img.shields.io/badge/Blue-268bd2) (`268bd2`) operator
-- ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) variable
+- ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) function
 - ![badge](https://img.shields.io/badge/Green-859900) (`859900`) keyword, special
 
 <img width="996" height="679" alt="Image" src="https://github.com/user-attachments/assets/88d4cf47-178a-4485-9e44-36c8d39846b3" />
