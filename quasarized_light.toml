@@ -41,6 +41,18 @@
 "ui.virtual.wrap"         = "bg_3"
 "ui.window"               = { fg = "fg_2", modifiers = ["bold"] }
 
+"diagnostic"             = { underline = { style = "curl" } }
+"diagnostic.deprecated"  = { fg = "clr_y", underline = { style = "curl" } }
+"diagnostic.error"       = { fg = "clr_r", underline = { style = "curl" } }
+"diagnostic.hint"        = { fg = "clr_g", underline = { style = "curl" } }
+"diagnostic.info"        = { fg = "clr_c", underline = { style = "curl" } }
+"diagnostic.unnecessary" = { fg = "clr_y", underline = { style = "curl" } }
+"diagnostic.warning"     = { fg = "clr_v", underline = { style = "curl" } }
+"error"                  = { fg = "clr_r", bg = "bg_3", modifiers = ["dim"] }
+"hint"                   = { fg = "clr_g", bg = "bg_3", modifiers = ["dim"] }
+"info"                   = { fg = "clr_c", bg = "bg_3", modifiers = ["dim"] }
+"warning"                = { fg = "clr_v", bg = "bg_3", modifiers = ["dim"] }
+
 "attribute"          = "clr_y"
 "comment"            = { fg = "bg_0", modifiers = ["italic"] }
 "comment.unused"     = { fg = "bg_0", modifiers = [] }
@@ -87,18 +99,6 @@ rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 "markup.quote"         = { fg = "fg_0", modifiers = ["italic"] }
 "markup.raw"           = { fg = "fg_1", bg = "bg_3" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-
-"diagnostic"             = { underline = { style = "curl" } }
-"diagnostic.deprecated"  = { fg = "clr_y", underline = { style = "curl" } }
-"diagnostic.error"       = { fg = "clr_r", underline = { style = "curl" } }
-"diagnostic.hint"        = { fg = "clr_g", underline = { style = "curl" } }
-"diagnostic.info"        = { fg = "clr_c", underline = { style = "curl" } }
-"diagnostic.unnecessary" = { fg = "clr_y", underline = { style = "curl" } }
-"diagnostic.warning"     = { fg = "clr_v", underline = { style = "curl" } }
-"error"                  = { fg = "clr_r", modifiers = ["dim"] }
-"hint"                   = { fg = "clr_g", modifiers = ["dim"] }
-"info"                   = { fg = "clr_c", modifiers = ["dim"] }
-"warning"                = { fg = "clr_v", modifiers = ["dim"] }
 
 [palette]
 clr_y = "#b58900" # Yellow : namespace, label, constant, attribute, macro
