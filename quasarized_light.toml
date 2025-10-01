@@ -42,20 +42,20 @@
 "ui.window"               = { fg = "fg_2", modifiers = ["bold"] }
 
 "diagnostic"             = { underline = { style = "curl" } }
-"diagnostic.deprecated"  = { fg = "clr_y", underline = { style = "curl" } }
-"diagnostic.error"       = { fg = "clr_r", underline = { style = "curl" } }
-"diagnostic.hint"        = { fg = "clr_g", underline = { style = "curl" } }
-"diagnostic.info"        = { fg = "clr_c", underline = { style = "curl" } }
-"diagnostic.unnecessary" = { fg = "clr_y", underline = { style = "curl" } }
-"diagnostic.warning"     = { fg = "clr_v", underline = { style = "curl" } }
-"error"                  = { fg = "clr_r", bg = "bg_3", modifiers = ["dim"] }
-"hint"                   = { fg = "clr_g", bg = "bg_3", modifiers = ["dim"] }
-"info"                   = { fg = "clr_c", bg = "bg_3", modifiers = ["dim"] }
-"warning"                = { fg = "clr_v", bg = "bg_3", modifiers = ["dim"] }
+"diagnostic.deprecated"  = { fg = "clr_y", bg = "bg_3" }
+"diagnostic.error"       = { fg = "clr_r", bg = "bg_3" }
+"diagnostic.hint"        = { fg = "clr_g", bg = "bg_3" }
+"diagnostic.info"        = { fg = "clr_c", bg = "bg_3" }
+"diagnostic.unnecessary" = { fg = "clr_y", bg = "bg_3" }
+"diagnostic.warning"     = { fg = "clr_v", bg = "bg_3" }
+"error"                  = { fg = "clr_r", modifiers = ["dim", "italic"] }
+"hint"                   = { fg = "clr_g", modifiers = ["dim", "italic"] }
+"info"                   = { fg = "clr_c", modifiers = ["dim", "italic"] }
+"warning"                = { fg = "clr_v", modifiers = ["dim", "italic"] }
 
 "attribute"          = "clr_y"
-"comment"            = { fg = "bg_0", modifiers = ["italic"] }
-"comment.unused"     = { fg = "bg_0", modifiers = [] }
+"comment"            = { fg = "bg_0", modifiers = ["dim"] }
+"comment.unused"     = { fg = "bg_0", modifiers = ["dim"] }
 "constant"           = "clr_y"
 "constant.builtin"   = "fg_1"
 "constant.character" = "fg_0"
