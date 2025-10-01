@@ -54,7 +54,7 @@
 "warning"                = { fg = "clr_v", modifiers = ["dim", "italic"] }
 
 "attribute"          = "clr_y"
-"comment"            = { fg = "bg_0", modifiers = ["dim"] }
+"comment"            = { fg = "bg_0", modifiers = [] }
 "comment.unused"     = { fg = "bg_0", modifiers = ["dim"] }
 "constant"           = "clr_y"
 "constant.builtin"   = "fg_1"
