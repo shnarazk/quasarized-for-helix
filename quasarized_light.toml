@@ -20,8 +20,8 @@
 "ui.menu.selected"        = { fg = "fg_4", bg = "bg_4", modifiers = ["bold"] }
 "ui.popup"                = { bg = "bg_3" }
 "ui.popup.info"           = { fg = "bg_4", bg = "fg_3c" }
-"ui.selection"            = { bg = "bg_3", modifiers = ["dim"] }
-"ui.selection.primary"    = { bg = "bg_3", modifiers = ["bold"] }
+"ui.selection"            = { bg = "bg_3c", modifiers = ["dim"] }
+"ui.selection.primary"    = { bg = "bg_3c", modifiers = ["bold"] }
 "ui.statusline"           = { fg = "bg_4", bg = "bg_0" }
 "ui.statusline.normal"    = { fg = "bg_4", bg = "clr_c" }
 "ui.statusline.insert"    = { fg = "bg_4", bg = "clr_r" }
