@@ -14,6 +14,7 @@
 "ui.cursorline.secondary" = { underline = { style = "dashed" } }
 "ui.gutter"               = { bg = "bg_3" }
 "ui.help"                 = { fg = "bg_3", bg = "fg_3c" }
+"ui.highlight"            = { fg = "fg_4", bg = "bg_2" }
 "ui.linenr"               = { fg = "fg_0", bg = "bg_0" }
 "ui.linenr.selected"      = { fg = "fg_3", bg = "bg_0", modifiers = ["bold"] }
 "ui.menu"                 = { fg = "fg_1", bg = "bg_3" }
