@@ -21,7 +21,7 @@
 "ui.menu.selected"        = { fg = "fg_4", bg = "bg_4", modifiers = ["bold"] }
 "ui.popup"                = { bg = "bg_3" }
 "ui.popup.info"           = { fg = "bg_4", bg = "fg_3c" }
-"ui.selection"            = { bg = "bg_3c", modifiers = ["dim"] }
+"ui.selection"            = { bg = "bg_3c", modifiers = [] }
 "ui.selection.primary"    = { bg = "bg_3c", modifiers = ["bold"] }
 "ui.statusline"           = { fg = "bg_4", bg = "bg_0" }
 "ui.statusline.normal"    = { fg = "bg_4", bg = "clr_c" }
@@ -33,9 +33,9 @@
 "ui.text.inactive"        = { fg = "clr_c" }
 "ui.text.info"            = "bg_3c"
 "ui.text.directory"       = { fg = "clr_b" }
-"ui.virtual.inlay-hint"   = { fg = "fg_0", modifiers = ["dim", "italic"] }
-"ui.virtual.inlay-hint.parameter" = { fg = "clr_c", modifiers = ["dim", "italic"] }
-"ui.virtual.inlay-hint.type" = { fg = "clr_o", modifiers = ["dim", "italic"] }
+"ui.virtual.inlay-hint"   = { fg = "fg_0", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.parameter" = { fg = "clr_c", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.type" = { fg = "clr_o", modifiers = ["italic"] }
 "ui.virtual.jump-label"   = { fg = "clr_b", modifiers = ["bold"], underline = { style = "line" } }
 "ui.virtual.ruler"        = { bg = "bg_3" }
 "ui.virtual.whitespace"   = "fg_0"
@@ -49,14 +49,14 @@
 "diagnostic.info"        = { fg = "clr_c", bg = "bg_3" }
 "diagnostic.unnecessary" = { fg = "clr_y", bg = "bg_3" }
 "diagnostic.warning"     = { fg = "clr_v", bg = "bg_3" }
-"error"                  = { fg = "clr_r", modifiers = ["dim", "italic"] }
-"hint"                   = { fg = "clr_g", modifiers = ["dim", "italic"] }
-"info"                   = { fg = "clr_c", modifiers = ["dim", "italic"] }
-"warning"                = { fg = "clr_v", modifiers = ["dim", "italic"] }
+"error"                  = { fg = "clr_r", modifiers = ["italic"] }
+"hint"                   = { fg = "clr_g", modifiers = ["italic"] }
+"info"                   = { fg = "clr_c", modifiers = ["italic"] }
+"warning"                = { fg = "clr_v", modifiers = ["italic"] }
 
 "attribute"          = "clr_y"
 "comment"            = { fg = "bg_0", modifiers = [] }
-"comment.unused"     = { fg = "bg_0", modifiers = ["dim"] }
+"comment.unused"     = { fg = "bg_0", modifiers = [] }
 "constant"           = "clr_y"
 "constant.builtin"   = "fg_1"
 "constant.character" = "fg_0"
@@ -76,7 +76,7 @@
 "string"             = "bg_0"
 "type"               = "clr_o"
 "type.builtin"       = "clr_o"
-"type.parameter"     = { fg = "clr_m", modifiers = ["dim"] }
+"type.parameter"     = { fg = "clr_m", modifiers = [] }
 "type.enum"          = "clr_r"
 "type.enum.variant"  = { fg = "clr_m", modifiers = [] }
 "variable"           = { fg = "clr_c" }
