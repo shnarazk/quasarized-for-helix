@@ -25,7 +25,7 @@ A modified color scheme for helix editor based on Solarized
 
 ## Dark and light modes are completely symmetric.
 
-Flipping assinged colors in main tones gets the other mode.  
+Flipping assinged colors in main tones gets the other mode.
 The rest part of files are identical.
 
 ## Types in ![badge](https://img.shields.io/badge/Orange-cb4b16), Functions in ![badge](https://img.shields.io/badge/Violet-6c71c4), and Variables in ![badge](https://img.shields.io/badge/Cyan-2aa198)
@@ -33,9 +33,9 @@ The other elements are assigned to quiet colors.
 It suits for strongly typed languages, which we love.
 
 - ![badge](https://img.shields.io/badge/Yellow-b58900) (`b58900`) namespace, label, constant, attribute, macro
-- ![badge](https://img.shields.io/badge/Orange-cb4b16) (`cb4b16`) class, type, struct
-- ![badge](https://img.shields.io/badge/Red-dc322f) (`dc322f`) enum variant
-- ![badge](https://img.shields.io/badge/Magenta-d33682) (`d33682`) type parameter
+- ![badge](https://img.shields.io/badge/Orange-cb4b16) (`cb4b16`) enum variant, type parameter
+- ![badge](https://img.shields.io/badge/Red-dc322f) (`dc322f`) class, type, struct, enum
+- ![badge](https://img.shields.io/badge/Magenta-d33682) (`d33682`) errors (= divergent type)
 - ![badge](https://img.shields.io/badge/Violet-6c71c4) (`6c71c4`) function
 - ![badge](https://img.shields.io/badge/Blue-268bd2) (`268bd2`) operator
 - ![badge](https://img.shields.io/badge/Cyan-2aa198) (`2aa198`) variable

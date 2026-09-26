@@ -35,7 +35,7 @@
 "ui.text.directory"       = { fg = "clr_b" }
 "ui.virtual.inlay-hint"   = { fg = "fg_0", modifiers = ["italic"] }
 "ui.virtual.inlay-hint.parameter" = { fg = "clr_c", modifiers = ["italic"] }
-"ui.virtual.inlay-hint.type" = { fg = "clr_o", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.type" = { fg = "clr_r", modifiers = ["italic"] }
 "ui.virtual.jump-label"   = { fg = "clr_b", modifiers = ["bold"], underline = { style = "line" } }
 "ui.virtual.ruler"        = { bg = "bg_3" }
 "ui.virtual.whitespace"   = "fg_0"
@@ -44,12 +44,12 @@
 
 "diagnostic"             = { underline = { style = "curl" } }
 "diagnostic.deprecated"  = { fg = "clr_y", bg = "bg_3" }
-"diagnostic.error"       = { fg = "clr_r", bg = "bg_3" }
+"diagnostic.error"       = { fg = "clr_m", bg = "bg_3" }
 "diagnostic.hint"        = { fg = "clr_g", bg = "bg_3" }
 "diagnostic.info"        = { fg = "clr_c", bg = "bg_3" }
 "diagnostic.unnecessary" = { fg = "clr_y", bg = "bg_3" }
 "diagnostic.warning"     = { fg = "clr_v", bg = "bg_3" }
-"error"                  = { fg = "clr_r", modifiers = ["italic"] }
+"error"                  = { fg = "clr_m", modifiers = ["italic"] }
 "hint"                   = { fg = "clr_g", modifiers = ["italic"] }
 "info"                   = { fg = "clr_c", modifiers = ["italic"] }
 "warning"                = { fg = "clr_v", modifiers = ["italic"] }
@@ -74,11 +74,11 @@
 "punctuation"        = "fg_1"
 "special"            = "clr_g"
 "string"             = "bg_0"
-"type"               = "clr_o"
-"type.builtin"       = "clr_o"
-"type.parameter"     = { fg = "clr_m", modifiers = [] }
+"type"               = "clr_r"
+"type.builtin"       = { fg = "clr_r", modifiers = ["bold"] }
+"type.parameter"     = { fg = "clr_o", modifiers = [] }
 "type.enum"          = "clr_r"
-"type.enum.variant"  = { fg = "clr_m", modifiers = [] }
+"type.enum.variant"  = { fg = "clr_o", modifiers = [] }
 "variable"           = { fg = "clr_c" }
 "variable.builtin"   = { fg = "clr_c", modifiers = ["bold"] }
 "variable.other"     = { fg = "clr_c" }
@@ -103,9 +103,9 @@ rainbow = ["clr_v", "clr_b", "clr_c", "clr_g", "clr_y", "clr_o", "fg_1"]
 
 [palette]
 clr_y = "#b58900" # Yellow : namespace, label, constant, attribute, macro
-clr_o = "#cb4b16" # Orange : class, type, struct
-clr_r = "#dc322f" # Red    : enum variant
-clr_m = "#d33682" # Magenta: type parameter
+clr_o = "#cb4b16" # Orange : enum variant, type parameter
+clr_r = "#dc322f" # Red    : class, type, struct
+clr_m = "#d33682" # Magenta: error
 clr_v = "#6c71c4" # Violet : funcion
 clr_b = "#268bd2" # Blue   : operator
 clr_c = "#2aa198" # Cyan   : variable
